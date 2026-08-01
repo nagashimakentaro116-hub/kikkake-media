@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap');
 
 :root{
   --yellow:#f0b429;
@@ -17,7 +17,7 @@
 html{scroll-behavior:smooth;}
 body{
   margin:0;
-  font-family:'Zen Kaku Gothic New','Hiragino Kaku Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif;
+  font-family:'Noto Sans JP','Hiragino Kaku Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif;
   color:var(--dark);
   background:var(--cream);
   line-height:1.8;
