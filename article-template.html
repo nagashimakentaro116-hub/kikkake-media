@@ -36,11 +36,10 @@
   <img src="{{THUMB_IMAGE}}" alt="{{THUMB_ALT}}" width="1200" height="500" decoding="async">
 </div>
 <!--
-  サムネイル画像が用意できない場合は、上記 <img> を削除し、
-  代わりに次の CSS のみのプレースホルダーで代用してよい（採用可否は添削者が判断）。
-  .article-thumb には既に背景グラデーションが設定済みなので、中身を空にするだけでも成立する。
-
-  <div class="article-thumb"></div>
+  {{THUMB_IMAGE}} には、Openverse API (https://api.openverse.org/v1/images/) で取得した
+  CC0/パブリックドメイン画像を images/thumb-{slug}.jpg として保存したパスを指定する。
+  取得手順・良い候補が見つからない場合の代替方針は WORKFLOW.md の「4. 画像の扱い」を参照。
+  空の <div class="article-thumb"></div>（画像なしプレースホルダー）は使わないこと。
 -->
 
 <article class="article-body">
